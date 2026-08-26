@@ -1,0 +1,5 @@
+github- A website to store share manage and host code and computing programs.
+Repository-A digital space for storing files and folders specifically code.
+code Envoroment- A digital space for building programs using code.
+computing termianl-A digital machine that runs code programs.
+python- A progaming language used to build a varietty of software programs such as apps, games and Ai tools.
