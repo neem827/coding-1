@@ -1,7 +1,11 @@
-4 data types we learned in class is data 1  
+
+4 data types we learned in class is calculation.
 
 A code repository is a digital space for storing files and folders specifically code.
 
 A computer keybord is a input device because its build in and not out.
 
-A variable is a contaier that stores data.
+A variable is a contaier that stores data and keeps the data safe.
+
+It has to start with a letter and not a number so it cannot start with a number.
+
