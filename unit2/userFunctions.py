@@ -15,8 +15,8 @@
 
 #function def syntax (how it is written)
 def goodmorning():
-print("good morning")
-name = input("what is your name:")
-print("welcom"+ name)
+#print("good morning")
+#name = input("what is your name:")
+#print("welcom"+ name)
 
 # function invocation/call
