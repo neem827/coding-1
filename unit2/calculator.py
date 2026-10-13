@@ -7,7 +7,6 @@
 #phase 1: function definition - actual code
 def calculate_add ():     
     print("program has started: please type 2 numbers to add")
-    num1 = int (input())
     num2  = int (input())
     print("program has ened")
 
@@ -17,3 +16,8 @@ calculate_add
 #subtration function
 #multiplication function
 #division function
+
+
+
+
+
