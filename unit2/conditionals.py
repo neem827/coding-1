@@ -33,37 +33,58 @@ bill_amount = int(input("please type bill tender"(1,5,10)))
 #4= division
 
 def calculate_subtract():
-print(program has started: please type 2 numbers to subtract)
-num1 = int (input())
-num2 = int (input())
-print (num1+num2)
+    print("program has started: please type 2 numbers to subtract")
+    num1 = int (input())
+    num2 = int (input())
+    print (num1+num2)
 
 def calculate_addition():
- print(program has started: please type 2 numbers to add)
-num1 = int (input())
-num2 = int (input())
-print (num1+num2)
+    print("program has started: please type 2 numbers to add")
+    num1 = int (input())
+    num2 = int (input())
+    print (num1+num2)
 
 def calculate_multipcation():
-print(program has started: please type 2 numbers to multipcation)
-num1 = int (input())
-num2 = int (input())
-print (num1+num2)
+    print("Program has started: please type 2 numbers to multipcation")
+    num1 = int (input())
+    num2 = int (input())
+    print (num1+num2)
 
 def calculate_division():
- print(program has started: please type 2 numbers to division)
-num1 = int (input())
-num2 = int (input())
-print (num1+num2)
+    print("program has started: please type 2 numbers to division")
+    num1 = int (input())
+    num2 = int (input())
+    print (num1+num2)
 
 chioic = input ("please a number")
 
-chioic == 1:
-calculate_add()
-elif chioic == 2:
-calculate_subtract()
+if chioic == 1:
+    calculate_add()
+elif chioice ==2:
+    calculate_subtract()
 elif chioic == 3:
-calculate_multiply()
+    calculate_multiply()
 elif chioic == 4:
-calculate_division
+    calculate_division()
 
+
+
+age = int(input())
+
+if age < 7:
+    print(8.00)
+elif age > 8 and age < 20:
+    print (12.00)
+elif age > 21 and age < 60:
+    print (20.00)
+elif age > 61:
+    print(0.00)
+
+
+
+    def movieTicket():
+        print("welcome to movie theater. please type age:")
+        age = int(input)
+        if age <= 7:
+            print (your ticket is $8.00.)
+        elif 
