@@ -29,7 +29,7 @@ def vending_machine():
         "G5": "Cola Soda"
     }
     
-    while True:
+    while :
         # Prompt the user for an item code or to quit
         user_input = input("Enter a vending machine code (or 'q' to quit): ").strip().upper()
         
@@ -49,3 +49,51 @@ def vending_machine():
 # Run the function
 if __name__ == "__main__":
     vending_machine()
+
+
+
+
+
+
+
+
+
+
+
+
+
+import random
+
+def dice_game():
+    # Initialize the player's score
+    score = 0
+    
+    print("Welcome to the Dice-Rolling Game!")
+    print("Enter 'r' to roll or 'q' to quit.")
+    
+    while True:
+        # Get user input and convert to lowercase to handle capitals smoothly
+        choice = input("\nRoll or Quit? (r/q): ").strip().lower()
+        
+        if choice == 'q':
+            print(f"Thanks for playing! Your final score is: {score}")
+            break
+            
+        elif choice == 'r':
+            # Generate a random number between 1 and 7
+            roll = random.randint(1, 7)
+            print(f"You rolled a: {roll}")
+            
+            # Check the win condition
+            if roll == 7:
+                score += 10
+                print(f"Winner! You gained 10 points. Current score: {score}")
+            else:
+                score -= 5
+                print(f"You lost 5 points. Current score: {score}")
+                
+        else:
+            print("Invalid input. Please enter 'r' to roll or 'q' to quit.")
+
+# To run the game, call the function:
+# dice_game()
