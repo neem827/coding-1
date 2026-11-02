@@ -96,4 +96,14 @@ def dice_game():
             print("Invalid input. Please enter 'r' to roll or 'q' to quit.")
 
 # To run the game, call the function:
-# dice_game()
+# dice_game() 
+
+
+
+
+
+
+
+
+
+

@@ -52,4 +52,4 @@ print (3 < 1 or 100 > 50)
 
 #NOT - the "oppostie day" operator. it will revers the
 #result of logical operators
-print(3 > 1 or 100 > 50) 
+print(3 > 1 or 100 > 50)   
