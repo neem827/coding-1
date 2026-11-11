@@ -1,0 +1,8 @@
+the game is created for peoeple that like cards,its made HTML5 and is fun game.
+you play to win if you win or lose youre not loseing any money because its not a beting game. 
+You will be able to play game with others like your friends and family etc.
+
+
+if you lose first round you can start over or keep going with the game.
+if you keep going you still got a chance to win, but if you start over, its going to start the whole game over.
+you can play game with bot off line or play with friends or family but there is no online.
